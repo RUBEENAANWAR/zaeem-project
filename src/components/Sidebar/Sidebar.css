@@ -1,0 +1,13 @@
+.main-div{
+margin-bottom: 50px;
+}
+.accordion-body ul li {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 0;
+}
+.accordion-button img{
+  width:20px;
+  height:20px;
+  margin-right: 25px;
+}
