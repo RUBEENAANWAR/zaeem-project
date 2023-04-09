@@ -1,0 +1,22 @@
+.sub-header h6 {
+    display: flex;
+    align-items: right;
+}
+
+.parent-div {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.parent-top ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.parent-top ul li {
+    margin-right: 85px;
+    font-size: 12px;
+
+}
+
