@@ -3,6 +3,13 @@
     justify-content: flex-end;
 
 } */
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+.child-div{
+    /* display: flex; */
+}
 .parent-list {
     display: flex;
     justify-content: flex-end;
@@ -14,6 +21,7 @@
 
 .content-box {
     background-color: white;
+    border-radius: 10px;
 }
 
 img {
@@ -27,6 +35,13 @@ img {
 
 .address {
     display: flex;
+}
+
+.permanent-address{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: flex-start; /* Align items to the left */
 }
 .authentication-details input{
     border-radius: 18px;
