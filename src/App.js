@@ -6,22 +6,23 @@ import Header from "./components/header/Header";
 import Footer from "./components/Footer/Footer";
 import Sidebar from "./components/Sidebar/Sidebar";
 import ParentDetails from "./components/parentDetails/ParentDetails";
-import parentProfile from "./components/profile/ParentProfile";
+import ParentProfile from "./components/profile/ParentProfile";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <div className="App-body">
-        <div className="App-body-sidebar">
+      <div className="app-body">
+        <div className="app-body-sidebar">
           <Sidebar />
         </div>
-        <div className="Table">
+        <div className="table">
+          {/* <Table/> */}
           <Router>
             <Routes>
-              <Route exact path="/" component={Table} />
-              <Route path="/parentDetails" component={ParentDetails} />
-              <Route path="parentProfile" Component={parentProfile} />
+              <Route exact path="/" element={<Table/>} />
+              <Route path="/parentDetails" element={<ParentDetails/>} />
+              <Route path="/parentProfile" element={<ParentProfile/>} />
             </Routes>
           </Router>
         </div>

@@ -1,14 +1,14 @@
-.App-body{
+.app-body{
     display:flex
 }
 
-.App-body-sidebar{
+.app-body-sidebar{
     flex: 1;
     padding: 16px;
     
 }
 
-.Table{
+.table{
     flex: 6;
     padding: 16px;
     background-color: rgb(230, 236, 237);

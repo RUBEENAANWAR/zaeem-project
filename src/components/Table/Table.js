@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Table.css";
 import Swal from 'sweetalert2';
 import ParentDetails from '../parentDetails/ParentDetails'
+import {Link} from 'react-router-dom'
 
 
 const Table = () => {
@@ -115,6 +116,7 @@ const Table = () => {
         </div>
       </div>
       <div className="container">
+        <div className="filter-add">
         <div className="filter">
           <input
             type="text"
@@ -123,6 +125,9 @@ const Table = () => {
             onChange={(e) => setFilterQuery(e.target.value)}
             onClick={handleFilter}
           />
+        </div>
+        <Link to="/parentProfile"><button>Add+</button></Link>
+        
         </div>
 
         <table>
@@ -144,13 +149,14 @@ const Table = () => {
                 <td>{row.created}</td>
                 <td className="icons">
                   {row.action}
+                  <Link to="/parentDetails">
                   <button>
                     <i class="fa-regular fa-file-lines"></i>
-                  </button>
-                  <button onClick={handleEdit}>
+                  </button></Link>
+                  <button class="button-style" onClick={handleEdit}>
                     <i class="fa-regular fa-pen-to-square"></i>
                   </button>
-                  <button onClick={() => handleDelete(row)}>
+                  <button class="button-style" onClick={() => handleDelete(row)}>
                     <i className="fa-solid fa-trash"></i>
                   </button>
                 </td>

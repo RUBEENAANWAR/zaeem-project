@@ -1,6 +1,7 @@
 .sub-header h6 {
     display: flex;
-    align-items: right;
+    justify-content: right;
+    align-items: baseline;
 }
 
 .parent-div {
@@ -20,3 +21,69 @@
 
 }
 
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 20px;
+}
+
+.icon-container .text {
+    align-items: right;
+}
+
+.parent-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.parent-profile input {
+    width: 200px;
+    margin: 5px 0;
+}
+
+.parent-profile img {
+    width: 120px;
+}
+
+.parent-details{
+    display: block;
+}
+
+.parent-details input {
+    height: 29px;
+    display: block;
+
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.column-1{
+    margin-right: 100px;
+}
+ .column2 {
+    display: flex;
+    justify-content: center;
+}
+
+.column3 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-submit {
+    display: flex;
+    justify-content: center;
+    /* float: center; */
+
+}
+
+button {
+    background-color: rgb(46, 91, 141);
+    /* margin-bottom: 50px; */
+}

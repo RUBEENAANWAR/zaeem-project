@@ -1,8 +1,8 @@
-/* Base table styles */
+
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 20px;
+    /* margin: 20px 20px; */
 }
 
 thead {
@@ -39,6 +39,10 @@ button {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    
+}
+.button-style{
+    background-color: none;
 }
 
 /* Responsive styles for smaller screens */
@@ -51,11 +55,9 @@ button {
     td {
         padding: 5px;
     }
-
-    /* Align search bar to the right for smaller screens */
     .filter {
         display: flex;
-        justify-content: flex-end;
+        justify-content: right;
         /* align-items: center; */
         text-align: right;
         margin-bottom: 10px;
@@ -89,4 +91,10 @@ portion-2{
     background-color: white;
     border-radius: 10px;
 
+}
+.filter-add{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
