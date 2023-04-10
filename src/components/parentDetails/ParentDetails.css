@@ -1,22 +1,31 @@
-/* .sub-header{
-    display: flex;
-    justify-content: flex-end;
+.main-div {
+    margin: left 50px;
+    ;
+}
 
-} */
-.parent{
+.parent-head {
+    margin-right: 900px;
+}
+
+.sub-header {
     display: flex;
-    flex-direction: column;
 }
-.child-div{
-    /* display: flex; */
-}
-.parent-list {
+
+.parent-list h6 {
     display: flex;
-    justify-content: flex-end;
-    text-align: right;
+    justify-content: right;
 }
-.parent-list h6{
+
+.parent-list h6 {
     margin-right: 15px;
+}
+
+.parent {
+    display: flex;
+}
+
+.parent-details {
+    display: flex;
 }
 
 .content-box {
@@ -25,37 +34,58 @@
 }
 
 img {
-    width: 120px;    
+    width: 120px;
 }
 
-.parent-details {
-    display: flex;
-    width: 60%;
-}
 
 .address {
     display: flex;
 }
 
-.permanent-address{
+.permanent-address {
     margin-right: 100px;
     display: flex;
-    flex-direction: column; /* Align items in a column */
-    align-items: flex-start; /* Align items to the left */
-}
-.authentication-details input{
-    border-radius: 18px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-/* button{
+.postal-address {
+    margin-right: 200px;
+}
+
+#inputbox {
+    border-radius: 8px;
+    border: none; 
+    width: 225px;
+    align-content: center;
+}
+
+.authentication {
+    border-radius: 8px;
+    background-color: rgb(228, 218, 231);
+    margin-left: 55px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.buttons {
     display: flex;
     justify-content: right;
-} */
-#disabledText {
-    color: red;
-  }
-#enabledText{
-    color: green;
 }
 
+.cancel {
+    background-color: rgb(73, 58, 232);
+}
 
+.edit {
+    background-color: rgb(52, 149, 240);
+}
+
+#disabledText {
+    color: red;
+}
+
+#enabledText {
+    color: green;
+}
