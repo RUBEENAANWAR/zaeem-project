@@ -1,6 +1,15 @@
-.sub-header h6 {
+/* .sub-header{
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+
+} */
+.parent-list {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+.parent-list h6{
+    margin-right: 15px;
 }
 
 .content-box {

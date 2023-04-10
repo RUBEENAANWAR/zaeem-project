@@ -39,7 +39,7 @@
 }
 
 .parent-profile input {
-    width: 200px;
+    width: 300px;
     margin: 5px 0;
 }
 
@@ -47,28 +47,31 @@
     width: 120px;
 }
 
-.parent-details{
+.parent-details {
     display: block;
 }
 
 .parent-details input {
     height: 29px;
     display: block;
-
 }
 
 .column {
     display: flex;
     justify-content: center;
-    flex: 1;
 }
 
-.column-1{
+.column-1 {
     margin-right: 100px;
 }
- .column2 {
+
+.column2 {
     display: flex;
     justify-content: center;
+}
+
+.column2 input {
+    margin-bottom: 10px;
 }
 
 .column3 {
@@ -76,11 +79,23 @@
     justify-content: center;
 }
 
+.column3 input {
+    margin-bottom: 10px;
+}
+
+.column-3 {
+    margin-right: 100px;
+}
+
+input,
+select {
+    width: 300px;
+}
+
 .button-submit {
     display: flex;
     justify-content: center;
     /* float: center; */
-
 }
 
 button {

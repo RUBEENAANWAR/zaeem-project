@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./ParentDetails.css";
 import profile from "../../images/profile.jpg";
+import {FaHome } from 'react-icons/fa';
 
 const ParentDetails = () => {
   // const [data, setData] = useState([
@@ -64,11 +65,14 @@ const ParentDetails = () => {
   return (
     <div className="header">
       <div className="sub-header">
-        <h4>Parent</h4>
-        <h6>parent</h6>
-        <h6>Profile</h6>
+        <div><h4>Parent</h4></div>
+       <div className="parent-list">
+       <h6><FaHome className="fa-house" />Dashboard</h6>
+       <h6>* Parent Details</h6>
+        </div> 
+        
       </div>
-
+ 
       <div className="content-box">
         <div className="parent-details">
           <div className="parent-pic">

@@ -70,12 +70,13 @@ const parentProfile = () => {
             </li>
           </ul>
         </div>
+       
         <div className="container">
           <div className="row">
             <div className="column ">
               <div className="parent-profile column-1">
                 <h5>1.Parent Profile</h5>
-                <img src={profile} />
+                <img src={profile} alt=""/>
                 <h8>Profile Photo</h8>
                 <label for="Email">Email</label>
                 <input type="email" id="email" placeholder="email" />
@@ -134,9 +135,8 @@ const parentProfile = () => {
               </div>
             </div>
             <div className="column3">
-             
-              <div className="postel-address">
-              <h5>Postal Address</h5>
+              <div className="postel-address column-3">
+                <h5>Postal Address</h5>
                 <input type="text" placeholder="House No/ApartmentNo" />
                 <br />
 
@@ -165,8 +165,9 @@ const parentProfile = () => {
         <div className="button-submit">
           <button type="submit">Save & Next</button>
         </div>
+        </div>
       </div>
-    </div>
+    
   );
 };
 
